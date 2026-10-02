@@ -24,6 +24,11 @@ public class Pessoa {
     private int mes;
     private int ano;
 
+    // Construtor
+    public Pessoa(String nome){
+        this.nome = nome;
+    }
+
     // Metodos 
     public void ajustarDataDeNascimento(int dia, int mes, int ano){
         this.dia = dia;
